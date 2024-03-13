@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'E-world & Elastic Beanstalk kalyan'
+    title: 'E-world & Elastic Beanstalk demos'
     })
     res.status(200).end();
 })
